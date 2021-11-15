@@ -5,7 +5,7 @@ body{
 
 header {
     margin:0;
-    background-color: rgb(22, 22, 22);
+    background-color:deepskyblue;
     padding: 5px;
     display:flex;
     justify-content: space-between;
@@ -18,7 +18,8 @@ header {
 }
 
 .mybutton {
-    color: white;
+    color: Black;
+    font-family:Arial;
     padding: 10px 25px;
     margin-left: 12px;
     text-decoration: none;
@@ -31,7 +32,7 @@ main {
     color:black;
 }
 footer {
-    background-color: rgb(22, 22, 22);
+    background-color: deepskyblue;
     margin:0;
     width:100%;
     padding: 5px;
@@ -39,6 +40,7 @@ footer {
     text-align:center;
     font-size:10pt;
     font-weight:lighter;
+    font-family:Arial;
 }
 form {
     margin:0 auto;
@@ -48,25 +50,29 @@ form {
     text-align:left;
 }
 label{
+    position:relative;
     margin:5px 0;
 }
 input{
     margin:10px 0;
-    width:95%
+    width:95%;
+    padding:3px;
 }
 textarea{
+    margin:10px 0;
     width:95%;
     height:200px;
+    padding:3px;
+    resize:none;
 }
 #submitBtn{
-    padding:5px;
+    margin:0;
+    width:50%;
+    height:30px;
     background-color:yellow;
     font-family:Arial;
     font-weight:bold;
-    font-size:16pt;
-    color:black;
-    width:50%;
-    height:30px;
+    font-size:15pt;
 }
 
 
