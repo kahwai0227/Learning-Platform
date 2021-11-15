@@ -1,0 +1,72 @@
+body{
+    background-color:whitesmoke;
+    margin:0;
+}
+
+header {
+    margin:0;
+    background-color: rgb(22, 22, 22);
+    padding: 5px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    margin-right: 0;
+    margin-top: 0;
+}
+
+.mybutton {
+    color: white;
+    padding: 10px 25px;
+    margin-left: 12px;
+    text-decoration: none;
+}
+
+main {
+    width: 100%;
+    padding:10px;
+    text-align:center;
+    color:black;
+}
+footer {
+    background-color: rgb(22, 22, 22);
+    margin:0;
+    width:100%;
+    padding: 5px;
+    color:whitesmoke;
+    text-align:center;
+    font-size:10pt;
+    font-weight:lighter;
+}
+form {
+    margin:0 auto;
+    width:50%;
+    padding:20px;
+    border:2px solid;
+    text-align:left;
+}
+label{
+    margin:5px 0;
+}
+input{
+    margin:10px 0;
+    width:95%
+}
+textarea{
+    width:95%;
+    height:200px;
+}
+#submitBtn{
+    padding:5px;
+    background-color:yellow;
+    font-family:Arial;
+    font-weight:bold;
+    font-size:16pt;
+    color:black;
+    width:50%;
+    height:30px;
+}
+
+
