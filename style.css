@@ -5,8 +5,9 @@ body{
 
 header {
     margin:0;
+    padding:0;
+    width:100%;
     background-color:deepskyblue;
-    padding: 5px;
     display:flex;
     justify-content: space-between;
     align-items: center;
@@ -26,26 +27,26 @@ header {
 }
 
 main {
+    margin:0;
+    padding:0px;
     width: 100%;
-    padding:10px;
     text-align:center;
     color:black;
 }
 footer {
     background-color: deepskyblue;
     margin:0;
+    padding:0;
     width:100%;
-    padding: 5px;
-    color:whitesmoke;
+    color:black;
     text-align:center;
     font-size:10pt;
-    font-weight:lighter;
-    font-family:Arial;
+    font-weight:100;
 }
 form {
     margin:0 auto;
     width:50%;
-    padding:20px;
+    padding:20px 0;
     border:2px solid;
     text-align:left;
 }
@@ -65,6 +66,20 @@ textarea{
     padding:3px;
     resize:none;
 }
+h1{
+    margin:10px;
+    padding:0;
+}
+h2{
+    margin:0;
+    padding:10px;
+}
+p{
+    margin:10px;
+    padding:10px;
+    font-family:Arial;
+    font-size:16pt;
+}
 #submitBtn{
     margin:0;
     width:50%;
@@ -73,6 +88,60 @@ textarea{
     font-family:Arial;
     font-weight:bold;
     font-size:15pt;
+}
+
+#homePageTitle {
+    margin:0;
+    padding: 10px 0;
+    width: 100%;
+    color: white;
+    background-image: url(https://images.unsplash.com/photo-1507608158173-1dcec673a2e5?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=870&q=80);
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.homePageContent{
+    margin:10px;
+    padding:0;
+    display:flex;
+    position:relative;
+}
+.largeButtonContainer {
+    margin: 20px auto;
+    width:20%;
+}
+.largeButton {
+    background-color: red;
+    padding: 10px;
+    color: white;
+    font-family: Arial;
+    font-size: large;
+    text-decoration: none;
+}
+.contentImage{
+    margin:auto 10px;
+    padding:0;
+}
+.contentContainer{
+    text-align:left;
+    margin:auto 10px;
+}
+
+.contentTitle{
+    margin:10px 0;
+    padding:0;
+}
+
+.contentParagraph{
+    margin:0;
+    padding:0;
+    font-size:12pt;
+}
+article{
+    padding:10px;
+}
+.clr{
+    clear:both;
 }
 
 
