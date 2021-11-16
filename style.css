@@ -5,7 +5,7 @@ body{
 
 header {
     margin:0;
-    padding:0;
+    padding:3px 0;
     width:100%;
     background-color:deepskyblue;
     display:flex;
@@ -33,16 +33,18 @@ main {
     text-align:center;
     color:black;
 }
+
 footer {
     background-color: deepskyblue;
     margin:0;
-    padding:0;
+    padding:10px 0;
     width:100%;
     color:black;
     text-align:center;
     font-size:10pt;
     font-weight:100;
 }
+
 form {
     margin:0 auto;
     width:50%;
@@ -50,15 +52,18 @@ form {
     border:2px solid;
     text-align:left;
 }
+
 label{
     position:relative;
     margin:5px 0;
 }
+
 input{
     margin:10px 0;
     width:95%;
     padding:3px;
 }
+
 textarea{
     margin:10px 0;
     width:95%;
@@ -66,20 +71,24 @@ textarea{
     padding:3px;
     resize:none;
 }
+
 h1{
     margin:10px;
     padding:0;
 }
+
 h2{
     margin:0;
     padding:10px;
 }
+
 p{
     margin:10px;
     padding:10px;
     font-family:Arial;
     font-size:16pt;
 }
+
 #submitBtn{
     margin:0;
     width:50%;
@@ -100,16 +109,19 @@ p{
     background-position: center;
     background-repeat: no-repeat;
 }
+
 .homePageContent{
     margin:10px;
     padding:0;
     display:flex;
     position:relative;
 }
+
 .largeButtonContainer {
     margin: 20px auto;
     width:20%;
 }
+
 .largeButton {
     background-color: red;
     padding: 10px;
@@ -118,10 +130,12 @@ p{
     font-size: large;
     text-decoration: none;
 }
+
 .contentImage{
     margin:auto 10px;
     padding:0;
 }
+
 .contentContainer{
     text-align:left;
     margin:auto 10px;
@@ -137,11 +151,12 @@ p{
     padding:0;
     font-size:12pt;
 }
-article{
-    padding:10px;
-}
-.clr{
-    clear:both;
+
+.footerContent{
+    margin:0;
+    padding:2px;
+    letter-spacing:normal;
+    font-size:10pt;
 }
 
 
