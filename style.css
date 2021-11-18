@@ -1,3 +1,4 @@
+/*tags style*/
 body{
     background-color:whitesmoke;
     margin:0;
@@ -13,8 +14,77 @@ header {
     align-items: center;
 }
 
+main {
+    margin: 0;
+    padding: 0px;
+    width: 100%;
+    text-align: center;
+    color: black;
+}
+
+footer {
+    background-color: deepskyblue;
+    margin: 0;
+    padding: 10px 0;
+    width: 100%;
+    color: black;
+    text-align: center;
+    font-size: 10pt;
+    font-weight: 100;
+}
+
+form {
+    margin: 0 auto;
+    width: 50%;
+    padding: 20px;
+    background-color: lightblue;
+    border-radius: 20px;
+    text-align: left;
+}
+
+label {
+    margin: 5px 0;
+}
+
+input {
+    margin: 10px 0;
+    width: 95%;
+    padding: 3px;
+    border: none;
+    border-radius: 5px;
+}
+
+textarea {
+    margin: 10px 0;
+    width: 95%;
+    height: 200px;
+    padding: 3px;
+    resize: none;
+    border: none;
+    border-radius: 5px;
+}
+
+h1 {
+    margin: 10px;
+    padding: 0;
+}
+
+h2 {
+    margin: 0;
+    padding: 10px;
+}
+
+p {
+    margin: 10px;
+    padding: 10px;
+    font-family: Arial;
+    font-size: 16pt;
+}
+
+
+/*class styles*/
 .logo {
-    margin-left: 2px;
+    margin-left: 5px;
     margin-top: 2px;
 }
 
@@ -26,79 +96,105 @@ header {
     text-decoration: none;
 }
 
-main {
-    margin:0;
-    padding:0px;
-    width: 100%;
-    text-align:center;
-    color:black;
+.homePageContent {
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    background-color: lightskyblue;
+    border-radius: 10px;
+    position: relative;
 }
 
-footer {
-    background-color: deepskyblue;
-    margin:0;
-    padding:10px 0;
-    width:100%;
-    color:black;
-    text-align:center;
-    font-size:10pt;
-    font-weight:100;
+.largeButtonContainer {
+    margin: 20px auto;
+    width: 20%;
 }
 
-form {
-    margin:0 auto;
-    width:50%;
-    padding:20px 0;
-    border:2px solid;
-    text-align:left;
+.largeButton {
+    background-color: red;
+    padding: 10px;
+    color: white;
+    font-family: Arial;
+    font-size: large;
+    text-decoration: none;
+    border-radius: 15px;
 }
 
-label{
-    position:relative;
-    margin:5px 0;
+.homeContentImage {
+    margin: auto 10px;
+    padding: 0;
+    border-radius: 10px;
 }
 
-input{
-    margin:10px 0;
-    width:95%;
-    padding:3px;
+.homeContentContainer {
+    text-align: left;
+    margin: auto 10px;
+    padding: 10px;
 }
 
-textarea{
-    margin:10px 0;
-    width:95%;
-    height:200px;
-    padding:3px;
-    resize:none;
+.homeContentTitle {
+    margin: 10px 0;
+    padding: 0;
 }
 
-h1{
-    margin:10px;
-    padding:0;
+.homeContentParagraph {
+    margin: 0;
+    padding: 0;
+    font-size: 12pt;
 }
 
-h2{
-    margin:0;
-    padding:10px;
+.footerContent {
+    margin: 0;
+    padding: 2px;
+    letter-spacing: normal;
+    font-size: 10pt;
 }
 
-p{
-    margin:10px;
-    padding:10px;
-    font-family:Arial;
-    font-size:16pt;
+.homePageContent_2 {
+    margin: 0 auto;
+    background-color: darkred;
+    padding: 10px 0;
+    display: flex;
+    justify-content: center;
 }
 
-#submitBtn{
-    margin:0;
-    width:50%;
-    height:30px;
-    background-color:yellow;
-    font-family:Arial;
-    font-weight:bold;
-    font-size:15pt;
+.homeContentContainer_2 {
+    width: 28%;
+    background-color: white;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 20px;
 }
 
+.homeContentTitle_2 {
+    padding: 0;
+    margin: 0;
+    margin-top: 10px;
+}
+
+.au-contentContainer {
+    margin: 20px 30px;
+    padding: 10px;
+    background-color: white;
+    border-radius: 20px
+}
+
+.au-title {
+    margin: 0 auto;
+    padding: 10px;
+    width: 20%;
+    background-color: lightgray;
+    border-radius: 15px;
+    color: black;
+}
+
+.au-paragraph {
+    margin: 5px auto;
+    padding: 5px 20px;
+    font-size: 12pt;
+}
+
+/*id styles*/
 #homePageTitle {
     margin:0;
     padding: 10px 0;
@@ -110,77 +206,35 @@ p{
     background-repeat: no-repeat;
 }
 
-.homePageContent{
-    margin:10px;
+
+
+#ourMission-listContainer{
+    width:70%;
+    margin:0 auto;
     padding:0;
-    display:flex;
+}
+
+#ourMission-list{
+    width:80%;
+    margin:10px auto;
+    padding-left:5px;
+    text-align:left;
+}
+
+#submitBtnContainer{
+    margin:auto;
+    width:50%;
     position:relative;
 }
 
-.largeButtonContainer {
-    margin: 20px auto;
-    width:20%;
-}
-
-.largeButton {
-    background-color: red;
-    padding: 10px;
-    color: white;
+#submitBtn {
+    left:50%;
+    width:100%;
+    height: 30px;
+    background-color: yellow;
     font-family: Arial;
-    font-size: large;
-    text-decoration: none;
-    border-radius:15px;
+    font-weight: bold;
+    font-size: 15pt;
 }
-
-.homeContentImage{
-    margin:auto 10px;
-    padding:0;
-}
-
-.homeContentContainer{
-    text-align:left;
-    margin:auto 10px;
-}
-
-.homeContentTitle{
-    margin:10px 0;
-    padding:0;
-}
-
-.homeContentParagraph{
-    margin:0;
-    padding:0;
-    font-size:12pt;
-}
-
-.footerContent{
-    margin:0;
-    padding:2px;
-    letter-spacing:normal;
-    font-size:10pt;
-}
-
-.homePageContent_2{
-    margin:0 auto;
-    background-color:lightgray;
-    padding:10px 0;
-    display:flex;
-    justify-content:center;
-}
-
-.homeContentContainer_2{
-    width:25%;
-    background-color:white;
-    border-radius:10px;
-    margin:10px;
-    padding:20px;
-}
-
-.homeContentTitle_2{
-    padding:0;
-    margin:0;
-    margin-top:10px;
-}
-
 
 
