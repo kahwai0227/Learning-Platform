@@ -12,9 +12,11 @@
 
     $conn = mysqli_connect($servername, $username, $password, $dbname);
 
-    $sql = "INSERT userdata(Name, Email, Message) VALUES('$name', '$email', '$message')";
+    $sql = "INSERT contactusdata(Name, Email, Message) VALUES('$name', '$email', '$message')";
 
     $result = mysqli_query($conn, $sql);
+
+    header("Location:http://localhost/Learning-Platform/contactUs.html");
 
     
 ?>

@@ -3,6 +3,7 @@
 <head>
     <title>About Us</title>
     <link href="style.css" rel="stylesheet" />
+    <script src="user.js"></script>
 </head>
 <body>
     <header>
@@ -14,7 +15,7 @@
             <a href="Courses.html" class="mybutton">COURSE</a>
             <a href="aboutUs.html" class="mybutton">ABOUT US</a>
             <a href="contactUs.html" class="mybutton">CONTACT US</a>
-            <a href="#" class="mybutton">LOGIN|SIGN UP</a>
+            <a href="#" class="mybutton" id="guest-nav" onclick="user()">LOGIN|SIGN UP</a>
         </nav>
     </header>
 
@@ -26,10 +27,13 @@
 
         <section class="au-contentContainer">
             <h2 class="au-title">Our Mission</h2>
-            <ul id="ourMission-listContainer">
-                <li id="ourMission-list">Create a reliable, safe and affortable online learning platform for Malaysians.</liid="ourMission-list">
-                <li id="ourMission-list">Provide an efficient online learning platform for schools and educatian centers.</liid="ourMission-list">
-            </ul>    
+            <div  id="ourMission-listContainer">
+                <ul>
+                    <li id="ourMission-list">Create a reliable, safe and affortable online learning platform for Malaysians.</li>
+                    <li id="ourMission-list">Provide an efficient online learning platform for schools and educatian centers.</li>
+                </ul>
+            </div>
+
         </section>
     </main>
 

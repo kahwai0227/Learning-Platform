@@ -7,7 +7,7 @@
 
     $conn = mysqli_connect($servername, $username, $password, $dbname);
 
-    $sql = "SELECT * FROM userdata";
+    $sql = "SELECT * FROM contactusdata";
 
     $result = mysqli_query($conn, $sql);
 ?>
@@ -30,15 +30,17 @@
 </head>
 <body>
     <div class="container mt-3">
-      <h2>UserData</h2>
-      <p>This table contains users data</p>            
+      <h2>Contact Us Data</h2>
+      <p>This table contains data from contact us page</p>            
       <table class="table table-bordered">
         <thead>
           <tr>
-            <th style="width:10%">id</th>
-            <th style="width:20%">Name</th>
-            <th style="width:20%">Email</th>
-            <th style="width:50%">Message</th>
+            <th style="width:5%">id</th>
+            <th style="width:15%">Name</th>
+            <th style="width:15%">Email</th>
+            <th>Message</th>
+            <th style="width:10%">Delete</th?>
+            <th style="width:10%">update</th?>
           </tr>
         </thead>
         <tbody>
@@ -49,6 +51,10 @@
                 echo "<td>".$row['Name']."</td>";
                 echo "<td>".$row['Email']."</td>";
                 echo "<td>".$row['Message']."</td>";
+          ?>
+          <td><a href="delete.php?id=<?php echo $row["id"]; ?>" onclick='return confirm("Are you sure?")'>DELETE</a></td>
+                <td><a href="update.php?id=<?php echo $row["id"]; ?>">UPDATE</a></td>
+            <?php    
                 echo "</tr>";
             }
             ?>

@@ -8,8 +8,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <title>MYStudy</title>
-
     <link rel="stylesheet" href="style.css"/>
+    <script src="user.js"></script>
+    <script src="dropDownBtnScript.js"></script>
 </head>
 <body>
     <header>
@@ -17,14 +18,20 @@
             <img class="logo" src="images/MyStudyLogo2resized.png" alt="" style="width: 180px">
         </a>
         <nav>
-            <a href="index.html" class="mybutton">HOME</a>
-            <a href="Courses.html" class="mybutton">COURSE</a>
-            <a href="aboutUs.html" class="mybutton">ABOUT US</a>
-            <a href="contactUs.html" class="mybutton">CONTACT US</a>
-            <a href="userHomePage.html" class="mybutton">LOGIN|SIGN UP</a>
+            <ul class="nav-bar">
+                <li class="nav-bar-content"><a href="index.html" class="mybutton">HOME</a></li>
+                <li class="nav-bar-content"><a href="Courses.html" class="mybutton">COURSE</a></li>
+                <li class="nav-bar-content"><a href="aboutUs.html" class="mybutton">ABOUT US</a></li>
+                <li class="nav-bar-content"><a href="contactUs.html" class="mybutton">CONTACT US</a></li>
+                <li class="nav-bar-content"><a href="#" class="mybutton" id="guest-nav" onclick="user()">LOGIN|SIGN UP</a></li>
+            </ul>
+            <div class="dropdown" id="dropDown">
+                
+            </div>
         </nav>
-    </header>
 
+    </header>
+    
     <main>
         <div id="homePageTitle">
             <img src="images/MyStudyLogoResized.png" alt="Alternate Text" style="width:100px" />
@@ -51,7 +58,7 @@
 
         <div class="homePageContent_2">
             <div class="homeContentContainer_2">
-                <img class="homeContentImage_2" src="https://cdn-icons.flaticon.com/png/512/1213/premium/1213276.png?token=exp=1637072157~hmac=32e5897908420d542314e3a2f0560bcf" style="width:100px" />
+                <img class="homeContentImage_2" src="https://cdn-icons.flaticon.com/png/512/1213/premium/1213276.png?token=exp=1637281488~hmac=7a0407b2281ccf82eb5cb65b46f84f3b" style="width:100px" />
                 <h2 class="homeContentTitle_2">Affortable Prices</h2>
             </div>            
             <div class="homeContentContainer_2">
